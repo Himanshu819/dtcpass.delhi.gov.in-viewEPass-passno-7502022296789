@@ -25,7 +25,7 @@ img.dtc{
 
 .body{
     text-align: center;
-    padding-bottom:30% ;
+    padding-bottom:25% ;
     margin: 2% auto;
     background-image:url("dtc theme1.png") ;
     opacity: 0.9;
@@ -57,8 +57,9 @@ p{
 .date{
     color: rgb(197, 44, 44);
 }
-.sign{
-align-items: left;
+.s{
+position: absolute;
+left: 10px;
 
     
 }
@@ -69,14 +70,16 @@ align-items: left;
 }
 .k1{ 
   text-align:start;
- 
+  position: absolute;
+  left: 10px;
+  top: 105%;
     
     font-size: 0.6rem;
 }
 
 .footer{
     background-color:rgb(26, 175, 177) ; text-align: center;
-    padding: 10%;
+    padding: 5%;
    font-weight: lighter;
    font-size: x-small;
 }
